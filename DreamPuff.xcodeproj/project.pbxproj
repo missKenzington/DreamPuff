@@ -9,19 +9,28 @@
 /* Begin PBXBuildFile section */
 		4F99850E208B0CD500A733B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99850D208B0CD500A733B4 /* AppDelegate.swift */; };
 		4F998510208B0CD500A733B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99850F208B0CD500A733B4 /* ViewController.swift */; };
-		4F998513208B0CD500A733B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F998511208B0CD500A733B4 /* Main.storyboard */; };
-		4F998515208B0CD700A733B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F998514208B0CD700A733B4 /* Assets.xcassets */; };
-		4F998518208B0CD700A733B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F998516208B0CD700A733B4 /* LaunchScreen.storyboard */; };
+		4F998515208B0CD700A733B4 /* lazyunicornicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F998514208B0CD700A733B4 /* lazyunicornicon.png */; };
+		4F998522208B107900A733B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F998521208B107900A733B4 /* Default-568h@2x.png */; };
+		4F998524208B157500A733B4 /* DreamPuff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F998523208B157400A733B4 /* DreamPuff.jpg */; };
+		4F998526208B15FC00A733B4 /* GameIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F998525208B15FC00A733B4 /* GameIntroView.swift */; };
+		4F998532208B1DCF00A733B4 /* unicorn-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F998531208B1DCF00A733B4 /* unicorn-icon.png */; };
+		4F998538208B23FE00A733B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F998537208B23FE00A733B4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F99850A208B0CD500A733B4 /* DreamPuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamPuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F99850D208B0CD500A733B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F99850F208B0CD500A733B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F998512208B0CD500A733B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F998514208B0CD700A733B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F998517208B0CD700A733B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F998514208B0CD700A733B4 /* lazyunicornicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lazyunicornicon.png; sourceTree = "<group>"; };
 		4F998519208B0CD700A733B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F998521208B107900A733B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4F998523208B157400A733B4 /* DreamPuff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DreamPuff.jpg; sourceTree = "<group>"; };
+		4F998525208B15FC00A733B4 /* GameIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIntroView.swift; sourceTree = "<group>"; };
+		4F99852F208B1CC700A733B4 /* url 40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "url 40x40.png"; sourceTree = "<group>"; };
+		4F998531208B1DCF00A733B4 /* unicorn-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unicorn-icon.png"; sourceTree = "<group>"; };
+		4F998534208B1F1E00A733B4 /* Dream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dream.jpg; sourceTree = "<group>"; };
+		4F998535208B1F1E00A733B4 /* lazyunicornicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lazyunicornicon.png; sourceTree = "<group>"; };
+		4F998537208B23FE00A733B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +47,7 @@
 		4F998501208B0CD500A733B4 = {
 			isa = PBXGroup;
 			children = (
+				4F998521208B107900A733B4 /* Default-568h@2x.png */,
 				4F99850C208B0CD500A733B4 /* DreamPuff */,
 				4F99850B208B0CD500A733B4 /* Products */,
 			);
@@ -56,10 +66,15 @@
 			children = (
 				4F99850D208B0CD500A733B4 /* AppDelegate.swift */,
 				4F99850F208B0CD500A733B4 /* ViewController.swift */,
-				4F998511208B0CD500A733B4 /* Main.storyboard */,
-				4F998514208B0CD700A733B4 /* Assets.xcassets */,
-				4F998516208B0CD700A733B4 /* LaunchScreen.storyboard */,
+				4F998525208B15FC00A733B4 /* GameIntroView.swift */,
 				4F998519208B0CD700A733B4 /* Info.plist */,
+				4F998537208B23FE00A733B4 /* Assets.xcassets */,
+				4F998514208B0CD700A733B4 /* lazyunicornicon.png */,
+				4F998531208B1DCF00A733B4 /* unicorn-icon.png */,
+				4F998534208B1F1E00A733B4 /* Dream.jpg */,
+				4F998535208B1F1E00A733B4 /* lazyunicornicon.png */,
+				4F99852F208B1CC700A733B4 /* url 40x40.png */,
+				4F998523208B157400A733B4 /* DreamPuff.jpg */,
 			);
 			path = DreamPuff;
 			sourceTree = "<group>";
@@ -122,9 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F998518208B0CD700A733B4 /* LaunchScreen.storyboard in Resources */,
-				4F998515208B0CD700A733B4 /* Assets.xcassets in Resources */,
-				4F998513208B0CD500A733B4 /* Main.storyboard in Resources */,
+				4F998515208B0CD700A733B4 /* lazyunicornicon.png in Resources */,
+				4F998532208B1DCF00A733B4 /* unicorn-icon.png in Resources */,
+				4F998524208B157500A733B4 /* DreamPuff.jpg in Resources */,
+				4F998522208B107900A733B4 /* Default-568h@2x.png in Resources */,
+				4F998538208B23FE00A733B4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F998526208B15FC00A733B4 /* GameIntroView.swift in Sources */,
 				4F998510208B0CD500A733B4 /* ViewController.swift in Sources */,
 				4F99850E208B0CD500A733B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4F998511208B0CD500A733B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F998512208B0CD500A733B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4F998516208B0CD700A733B4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F998517208B0CD700A733B4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4F99851A208B0CD700A733B4 /* Debug */ = {
